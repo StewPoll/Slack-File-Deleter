@@ -9,5 +9,6 @@ Default number of weeks is 4.
 python file_delete.py token [number_of_weeks]
 
 ## Contact the author
-<mailto:administrator@tetraetc.com>
+Email: <mailto:administrator@tetraetc.com>
+
 [Home Page](http://code.tetraetc.com)
