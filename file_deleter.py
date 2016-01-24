@@ -26,7 +26,7 @@ def main(token, weeks):
     slack = Slacker(token)
     # Get list of all files available for the user of the token
     total = slack.files.list(count=1).body['paging']['total']
-    num_pages = int(total/1000.00 + .5) # Get number of pages
+    num_pages = round(total/1000.00 + .5) # Get number of pages
     print("{} files to be processed, across {} pages".format(total, num_pages))
     # Get files
     files_to_delete = []
