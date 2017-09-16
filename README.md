@@ -3,12 +3,12 @@ Default number of weeks is 4.
 
 ## Installation:
 - clone repo
-- pip install requirements.txt
+- `pip install -r requirements.txt`
 
 ## USAGE:
 python file_delete.py token [number_of_weeks]
 
 ## Contact the author
-Email: <mailto:administrator@tetraetc.com>
+[Email](mailto:administrator@tetraetc.com)
 
 [Home Page](http://code.tetraetc.com)
